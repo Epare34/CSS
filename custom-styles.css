@@ -1,3 +1,15 @@
-.vfrc-message-text {
+/* Aligner les messages de l'assistant à droite */
+.vfrc-system-response .vfrc-message {
+    text-align: right;
+}
+
+/* Aligner les boutons de réponse de l'assistant à droite */
+.vfrc-system-response .vfrc-button {
+    justify-content: flex-end; /* Pour les éléments flex, cela aligne les boutons à droite */
+    text-align: right; /* Alignement du texte à l'intérieur des boutons */
+}
+
+/* Assurer que tous les éléments de réponse sont alignés à droite */
+.vfrc-system-response {
     text-align: right;
 }
