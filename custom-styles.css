@@ -1,10 +1,4 @@
-/* Aligner le texte des messages du chatbot à gauche */
-.vfrc-message, .vfrc-system-response, .vfrc-user-response {
-    text-align: left !important;
-}
-
-/* Assurez-vous que les contenus supplémentaires dans les réponses du chatbot sont également alignés à gauche */
-.vfrc-system-response--list, .vfrc-system-response--actions, .vfrc-button {
-    text-align: left !important;
-    justify-content: flex-start !important; /* Pour les éléments flexibles, alignez les éléments enfants à gauche */
+/* Changer l'arrière-plan du chatbot en noir */
+.vfrc-chat--overlay {
+    background-color: #000000 !important;
 }
