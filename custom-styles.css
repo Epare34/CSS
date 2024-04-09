@@ -1,4 +1,9 @@
-/* Changer l'arrière-plan du chatbot en noir */
+/* Modifier la couleur de fond du chatbot */
+.vfrc-chat {
+  background-color: #000000 !important;
+}
+
+/* Pour l'overlay complet, si votre chatbot utilise un mode 'overlay' */
 .vfrc-chat--overlay {
-    background-color: #000000 !important;
+  background-color: #000000 !important;
 }
